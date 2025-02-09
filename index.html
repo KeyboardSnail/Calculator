@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc_css.css">
+</head>
+<body>
+    <div id="cal-con">
+        <h2 id="displayNumb">0</h2>
+        <h4 onclick="formNumber(7)">7</h4>
+        <h4 onclick="formNumber(8)">8</h4>
+        <h4 onclick="formNumber(9)">9</h4>
+        <h4 onclick="formNumber(4)">4</h4>
+        <h4 onclick="formNumber(5)">5</h4>
+        <h4 onclick="formNumber(6)">6</h4>
+        <h4 onclick="formNumber(1)">1</h4>
+        <h4 onclick="formNumber(2)">2</h4>
+        <h4 onclick="formNumber(3)">3</h4>
+        <h4 onclick="formNumber(0)" style="grid-row:5/6 ; grid-column:1/3;">0</h4>
+        <h4 onclick="formNumber('.')">.</h4>
+        <h4 style="grid-row:2/3 ; grid-column:4/5; " class="operator-btn" onclick="opDiv()">/</h4>
+        <h4 style="grid-row:3/4 ; grid-column:4/5; " class="operator-btn" onclick="opMul()">x</h4>
+        <h4 style="grid-row:4/5 ; grid-column:4/5; " class="operator-btn" onclick="opSub()">-</h4>
+        <h4 style="grid-row:5/6 ; grid-column:4/5; " class="operator-btn" onclick="opSum()">+</h4>
+        <h4 id="equal" style="grid-row:6/7 ; grid-column:1/5; " class="operator-btn">=</h4>
+     </div>
+</body>
+<script src="calc.js"></script>
+</html>
+ 
+ 
+ <!-- CSS code I used:
+ 
+ /* ---------------- Calculator ---------------- */ -->
+ 
